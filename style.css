@@ -1,0 +1,116 @@
+/*Desktop View */
+
+@media  (max-width: 1880px) {
+    body {
+      background-color: pink;
+      background-image: url(https://media.istockphoto.com/id/89354611/photo/many-scoops-of-pink-strawberry-ice-cream-as-a-background.jpg?s=612x612&w=0&k=20&c=y6-D_UkL5GQeLsglXH4Uz84EUjYs9RSRfGrN6UVxJOE=);
+      background-size: cover;
+      color: blue
+    }
+  
+    .cone{
+        width: 200px;
+        height: 200px;
+        background-image: url(https://img.freepik.com/free-vector/hand-drawn-strawberry-fruit-illustration_53876-2981.jpg?w=740&t=st=1674489193~exp=1674489793~hmac=31176373b90bf3431b19cec0975e939172bd8ecf4d914600c4f366c03a6cfee1);
+        background-size: cover;
+    }
+    .mainContainer{
+        display:flex;
+        justify-content: space-between;
+}
+
+.shop{
+    border-radius: 10%;
+    height: 100px;
+    width: 120px;
+    background-color: gray;
+    font-weight: bolder;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    border:solid white;
+    padding: 24px;
+}
+
+
+  /* ----------------------------------------------------------------------- */
+
+
+  /* Ipad -MidScreen */
+
+  @media  (max-width: 1280px) {
+    body {
+      background-color: white;
+      background-image: url(https://media.istockphoto.com/id/948032164/photo/ice-cream.jpg?s=612x612&w=0&k=20&c=EWy8rEsWVuv67-DWH0a-rAlI7GSy1FAU237yg1TwFKg=);
+      background-size: cover;
+      color: green
+    }
+    .cone{
+        width:90px;
+        height: 90px;
+        background-image:url(https://media.istockphoto.com/id/1251472666/vector/vanilla-yellow-rgb-color-icon-aromatic-flower-and-pods-of-vanilla-orchid-aroma-and-flavor.jpg?s=612x612&w=is&k=20&c=uHiXwT1c4VYqjaT_mfElwRpT9hZ-eJEpx9XUDkhFpiA=);
+        background-size: cover;
+    }
+    .mainContainer{
+        display:flex;
+        justify-content: space-between;
+    }
+ 
+    .nav{
+        display:flex;
+        justify-content: space-around;
+        border: solid brown;
+        padding: 24px;
+    }
+    .shop{
+        border-radius: 10%;
+        height: 100px;
+        width: 120px;
+        background-color: brown;
+    }
+    
+}
+
+
+  /* ----------------------------------------------------------------------------- */
+
+  /* Mobile View */
+
+  @media  (max-width: 680px) {
+    body {
+      background-color: brown;
+      background-image: url(https://media.istockphoto.com/id/182866287/photo/chocolate-ice-cream.jpg?s=612x612&w=0&k=20&c=Ka_a9wnZxYsYReP-tqXdXOtnOUCBjQ23vO1AvstoLPw=);
+      background-size: cover;
+      color: whitesmoke
+    }
+    .cone{
+        width:90ox;
+        height: 90px;
+        background-image: url(https://t4.ftcdn.net/jpg/02/86/24/63/360_F_286246320_YdcHrujL8N1A0CVR5BNchcwXKj6YYtax.jpg);
+        background-size: cover;
+    }
+    .mainContainer{
+        display:block;
+        justify-content: space-between;
+    }
+
+        .nav{
+            display:block;
+            justify-content: space-evenly;
+            border: solid pink;
+            padding: none;
+        }
+        .shop{
+            border-radius: 10%;
+            height: 48px;
+            width: 90px;
+            background-color: pink;
+        }
+        
+    }
+
+  
+  /*------------------------------------------------------------------------------------*/
+}
